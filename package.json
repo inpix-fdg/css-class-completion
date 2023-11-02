@@ -3,6 +3,7 @@
   "displayName": "ixcss-class-completion",
   "description": "",
   "version": "0.0.1",
+  "publisher": "jh-dev",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -76,6 +77,9 @@
         }
       }
     ]
+  },
+  "repository": {
+    "url": "https://github.com/inpix-fdg/css-class-completion"
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
