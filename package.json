@@ -1,8 +1,8 @@
 {
   "name": "ix-css-class-completion",
-  "displayName": "ixcss-class-completion",
+  "displayName": "ix-css-class-completion",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "jh-dev",
   "engines": {
     "vscode": "^1.83.0"
@@ -10,7 +10,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["*"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -81,6 +81,9 @@
   "repository": {
     "url": "https://github.com/inpix-fdg/css-class-completion"
   },
+  "extensionDependencies": [
+    "ix-css-class-completion@new-version"
+  ],
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
